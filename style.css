@@ -132,11 +132,11 @@ body {
     background-size: cover;
 }
 
-.app-download:nth-child(1) {
+.app-download {
     background-image: url('img/bpp.png');
 }
  
-.app-download:nth-child(2) {
+.app-download {
     background-image: url('img/playbut.png');
 }
 
@@ -159,5 +159,18 @@ body {
 
     .instagram-continue{
         width: 100%;
+    }
+
+    .instagram-logo{
+        height: 6rem !important;
+        padding: 0px 7px 0px 0px;
+        margin-top: 102px;
+    }
+
+    .profile-foto {
+        height: 20rem;
+        width: 20rem;
+        margin-top: 1rem;
+        padding: 0px 0px 0px 26px !important;
     }
 }
